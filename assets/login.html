@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./js/login.js" defer></script>
+    <title>Log In</title>
+</head>
+<body>
+    <header>
+        <h1>Personal Diary App</h1>
+        <em>Log In</em>
+    </header>
+    <hr />
+    <main class="container">
+        <section class="section container-row">
+            <form id="login-form" class="entry-form">
+                <fieldset>
+                    <label for="username" class="journal-label">Username:</label>
+                    <input type="text" id="username" name="username" class="entry-text-title" placeholder="Enter your username">
+                </fieldset>
+                <fieldset>
+                    <label for="password" class="journal-label">Password:</label>
+                    <input type="password" id="password" name="password" class="entry-text-title" placeholder="Enter your password">
+                </fieldset>
+                <button type="submit" class="btn-main entry-submit-btn">Log in</button>
+                <br>
+                <a href="./index.html">Continue without Log In</a>
+            </form>
+            <p>No account? <a href="./register.html" class="btn-light">Sign up here</a>.</p>
+        </section>
+    </main>
+</body>
+</html>

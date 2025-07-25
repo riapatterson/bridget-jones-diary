@@ -1,1 +1,1 @@
-# bridget-jones-diary
+# ridget-jones-diary
