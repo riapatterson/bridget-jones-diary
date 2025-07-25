@@ -1,1 +1,0 @@
-# ridget-jones-diary
